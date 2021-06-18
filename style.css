@@ -1,0 +1,98 @@
+* {
+  /*   outline: 1px solid; */
+    font-family: Arial;
+    
+  }
+  
+  body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #3a3238;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+  }
+  
+  .m-5 {
+    width: 300px;
+    background-color: #f5e3e0;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 8px 2px rgba(0, 0, 0, .6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mb-3 h3 {
+    text-align: center;
+    margin: 15px;
+    color: #6e4555;
+    font-weight: bolder;
+  }
+  
+  h4 {
+    color: #6e4555;
+    font-weight: bolder;
+  }
+  
+  .form-inline input {
+    border: 2px solid #e8b4bc;
+    background-color: transparent;
+    color: #3a3238;
+  }
+  
+  .form-inline .btn {
+    background-color: #e8b4bc;
+    color: #3a3238;
+    font-weight: 600;
+  }
+  
+  .checked {
+    color: #d282a6;
+    text-decoration: line-through;
+    font-style: italic;
+  }
+  
+  .fa {
+    margin: 0 5px;
+    color: #bbb;
+  }
+  
+  .fa:hover {
+    color: #6e4555;
+  }
+  
+  li>label[for='todo'] {
+    width: 210px;
+    height: 25px;
+    cursor: pointer;
+    vertical-align: middle;
+    padding-top: 2.5px;
+    padding-left: 3px;
+    
+  }
+  
+  .list-unstyled li:hover {
+    background: #e8b4bc;
+    border-radius: 10px;
+  }
+  
+  .list-unstyled li {
+    cursor: pointer;
+  }
+  
+  #my-todo, #my-done {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
